@@ -9878,3 +9878,52 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+/* 1. Make the header always white and not transparent */
+.header, .header-wrapper, .site-header {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Optional subtle shadow */
+  position: relative;
+  z-index: 999;
+}
+
+/* 2. Force full menu to show on mobile instead of burger */
+@media screen and (max-width: 749px) {
+  .header__inline-menu,
+  .header__menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff !important;
+    width: 100%;
+    padding: 1rem;
+    position: static;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Hide hamburger menu icon */
+  .header__icon--menu,
+  .menu-drawer__toggle,
+  .menu-drawer {
+    display: none !important;
+  }
+
+  /* Make dropdowns always visible if you're using nested items */
+  .header__submenu,
+  .menu-drawer__submenu {
+    display: block !important;
+    max-height: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+/* 3. Keep slideshow below the header */
+.slideshow, .slideshow-component {
+  margin-top: 80px; /* Adjust if your header is taller */
+}
+

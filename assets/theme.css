@@ -9879,18 +9879,17 @@ split-lines {
   overflow: hidden;
 }
 
-
-/* 1. Make the header always white and not transparent */
+/* 1. Make the header solid white and NOT overlapping the slideshow */
 .header, .header-wrapper, .site-header {
   background-color: #ffffff !important;
+  position: relative !important;
   opacity: 1 !important;
   backdrop-filter: none !important;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Optional subtle shadow */
-  position: relative;
-  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
 }
 
-/* 2. Force full menu to show on mobile instead of burger */
+/* 2. Show full menu (no burger) even on mobile */
 @media screen and (max-width: 749px) {
   .header__inline-menu,
   .header__menu {
@@ -9900,19 +9899,19 @@ split-lines {
     background-color: #ffffff !important;
     width: 100%;
     padding: 1rem;
-    position: static;
     visibility: visible !important;
     opacity: 1 !important;
+    position: static !important;
   }
 
-  /* Hide hamburger menu icon */
+  /* Hide hamburger menu */
   .header__icon--menu,
   .menu-drawer__toggle,
   .menu-drawer {
     display: none !important;
   }
 
-  /* Make dropdowns always visible if you're using nested items */
+  /* Always show dropdowns, if present */
   .header__submenu,
   .menu-drawer__submenu {
     display: block !important;
@@ -9922,8 +9921,7 @@ split-lines {
   }
 }
 
-/* 3. Keep slideshow below the header */
+/* 3. Push slideshow down so it starts below the header */
 .slideshow, .slideshow-component {
-  margin-top: 80px; /* Adjust if your header is taller */
+  margin-top: 100px; /* Adjust if your header is taller or smaller */
 }
-

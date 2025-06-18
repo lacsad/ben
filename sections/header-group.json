@@ -45,7 +45,7 @@
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "main-menu",
-        "secondary_menu": "",
+        "secondary_menu": "link-list",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",

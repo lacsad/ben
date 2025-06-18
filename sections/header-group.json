@@ -42,7 +42,7 @@
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/balakankicks.png",
         "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 40,
         "menu": "main-menu",
         "sidebar_menu": "main-menu",
         "secondary_menu": "link-list",

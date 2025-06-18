@@ -144,11 +144,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* Style the slideshow wrapper */.slideshow,.slideshow-component {max-width: 1200px; /* Limit width */ margin: 2rem auto; /* Center and add spacing */ border-radius: 20px; /* Rounded corners */ overflow: hidden; /* Clip corners */ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow */}",
-      "/* Style each individual slide */.slideshow__slide,.slideshow__media {border-radius: 20px; overflow: hidden;}",
-      "/* Style the images inside slides */.slideshow__media img {border-radius: 20px; width: 100%; height: auto; object-fit: cover;}",
-      "/* Optional: reduce mobile width a bit more */@media screen and (max-width: 749px) {.slideshow, .slideshow-component {max-width: 95vw; margin: 1rem auto; }}"
-    ]
+    "custom_css": []
   }
 }

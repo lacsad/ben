@@ -9879,67 +9879,49 @@ split-lines {
   overflow: hidden;
 }
 
-/* 1. Header background: slightly darker than white (light gray with slight transparency) */
-.header-wrapper, .header, .site-header {
-  background-color: rgba(30, 30, 30, 0.07) !important; /* very light black tint */
-  backdrop-filter: none !important;
-  box-shadow: none !important;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  opacity: 1 !important;
-}
-
-/* 2. Push page content down so it doesn't go under fixed header */
-body {
-  padding-top: 80px; /* Adjust to your header's actual height */
-}
-
-/* 3. Force the main menu to always be visible on desktop and mobile */
-.header__menu, .menu-drawer__navigation, .menu-drawer {
-  display: flex !important;          /* flex for horizontal menu */
-  visibility: visible !important;
-  opacity: 1 !important;
+/* 1. Make the header solid white and NOT overlapping the slideshow */
+.header, .header-wrapper, .site-header {
+  background-color: #ffffff !important;
   position: relative !important;
-  transform: none !important;
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
-}
-
-/* 4. Hide hamburger toggle icon (optional, since menu is always shown) */
-.header__icon--menu, .menu-drawer__toggle {
-  display: none !important;
-}
-
-/* 5. Make submenu dropdowns always visible (desktop & mobile) */
-.menu-drawer__submenu, 
-.menu-drawer__navigation .disclosure__content, 
-.header__submenu {
-  display: block !important;
   opacity: 1 !important;
-  visibility: visible !important;
-  max-height: none !important;
-  position: static !important;
+  backdrop-filter: none !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
 }
 
-/* 6. Remove overlays or transparent backgrounds from menus */
-.menu-drawer__overlay, .header__overlay {
-  display: none !important;
-  background: none !important;
-  opacity: 0 !important;
+/* 2. Show full menu (no burger) even on mobile */
+@media screen and (max-width: 749px) {
+  .header__inline-menu,
+  .header__menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff !important;
+    width: 100%;
+    padding: 1rem;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: static !important;
+  }
+
+  /* Hide hamburger menu */
+  .header__icon--menu,
+  .menu-drawer__toggle,
+  .menu-drawer {
+    display: none !important;
+  }
+
+  /* Always show dropdowns, if present */
+  .header__submenu,
+  .menu-drawer__submenu {
+    display: block !important;
+    max-height: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 }
 
-/* 7. Optional: style menu background so it stands out */
-.header__menu, .menu-drawer__navigation {
-  background-color: rgba(255, 255, 255, 0.95) !important; /* nearly white */
-  padding: 0 1rem;
-}
-
-/* 8. Optional: style menu links color */
-.header__menu a, .menu-drawer__navigation a {
-  color: #333 !important; /* dark gray text */
-  font-weight: 600;
+/* 3. Push slideshow down so it starts below the header */
+.slideshow, .slideshow-component {
+  margin-top: 100px; /* Adjust if your header is taller or smaller */
 }

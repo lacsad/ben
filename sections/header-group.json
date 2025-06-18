@@ -82,7 +82,7 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
+        "transparent_header_text_color": "#000000",
         "transparent_logo": "shopify://shop_images/balakankicks.png",
         "reduce_padding": false,
         "background_opacity": 100,

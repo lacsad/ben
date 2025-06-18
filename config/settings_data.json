@@ -9,13 +9,14 @@
  */
 {
   "current": {
+    "page_width": 1580,
     "section_vertical_spacing": "medium",
     "button_border_radius": 60,
     "input_border_radius": 8,
     "block_border_radius": 24,
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
-    "button_style": "fill",
+    "button_style": "outline",
     "background": "#f0f0f0",
     "text_color": "#1a1a1a",
     "header_background": "#f0f0f0",
@@ -36,6 +37,7 @@
     "heading_apparition": "split_fade",
     "show_product_rating": true,
     "product_rating_mode": "count",
+    "discount_mode": "saving",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "natural",
     "product_info_alignment": "start",

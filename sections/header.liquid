@@ -86,6 +86,10 @@ the underlying logic of the menu.
 
       <div class="header__main-nav">
         <div class="header__icon-list">
+          <button type="button" class="tap-area {% if section.settings.layout != 'drawer' %}lg:hidden{% endif %}" aria-controls="header-sidebar-menu">
+            <span class="sr-only">{{ 'header.general.open_menu' | t }}</span>
+            {%- render 'icon' with 'hamburger' -%}
+          </button>
 
           <a href="{{ routes.search_url }}" class="tap-area sm:hidden" aria-controls="search-drawer">
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>

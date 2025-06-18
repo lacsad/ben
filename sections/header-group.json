@@ -38,7 +38,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/balakankicks.png",
         "logo_max_width": 120,
@@ -48,7 +48,7 @@
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_center_navigation_inline",
+        "layout": "drawer",
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": true,

@@ -11,7 +11,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
- {%- render 'ecom_header' -%}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
@@ -85,5 +84,5 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-  {%- render "ecom_footer"-%}</body>
+  </body>
 </html>

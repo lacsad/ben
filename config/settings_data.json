@@ -43,7 +43,14 @@
     "favicon": "shopify://shop_images/balakankicks.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "15914998778720525373": {
+        "type": "shopify://apps/crisp-live-chat-chatbot/blocks/app-embed/5c3cfd5f-01d4-496a-891b-f98ecf27ff08",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Sound": {

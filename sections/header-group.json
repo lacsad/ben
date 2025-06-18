@@ -37,6 +37,34 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_t7mfPY": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_t7mfPY"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
@@ -45,7 +73,7 @@
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "main-menu",
-        "secondary_menu": "link-list",
+        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",
@@ -56,7 +84,7 @@
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/balakankicks.png",
-        "reduce_padding": true,
+        "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 12
       }

@@ -41,11 +41,11 @@
         "mega_menu_t7mfPY": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "jjj",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
-            "image_link_1": "",
+            "image_link_1": "shopify://collections/обувки",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",

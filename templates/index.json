@@ -159,6 +159,31 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_3U4DYa": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "нови-допълнения",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Нови Допълнения",
+        "content": "",
+        "link_url": "",
+        "link_text": "Виж-Всички",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -192,6 +217,81 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "featured_collection_eaGj3X": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "nike-най-продавани",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Nike | Най-продавани",
+        "content": "",
+        "link_url": "",
+        "link_text": "Виж-Всички",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_RfRV9G": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "air-jordan-най-продавани",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Air Jordan | Най-продавани",
+        "content": "",
+        "link_url": "",
+        "link_text": "Виж-Всички",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_8q98dV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balenciaga-най-продавани",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Balenciaga | Най-продавани",
+        "content": "",
+        "link_url": "",
+        "link_text": "Виж-Всички",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "faq": {
@@ -243,7 +343,11 @@
     "slideshow",
     "image-link-blocks",
     "featured-collection",
+    "featured_collection_3U4DYa",
     "impact-text",
+    "featured_collection_eaGj3X",
+    "featured_collection_RfRV9G",
+    "featured_collection_8q98dV",
     "faq"
   ]
 }

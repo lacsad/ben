@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Kickhaven_Desktop_Banner_ver_1.2_3100d7ed-cd4c-4abb-b784-781ff8d578f3_1.png",
+            "image": "shopify://shop_images/telelleelle.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -301,14 +301,14 @@
           "type": "item",
           "settings": {
             "title": "Колко време ще отнеме да получа поръчките си?",
-            "content": "<p>Времето за доставка е различно за всeки модел и може да се види при кликване върху желания модел. Ако не е изрично посочено, можете да очаквате време за доставка около 20 дни.<br/><br/>Products marked with \"<strong>48H</strong>\" are eligible for dispatch within a maximum of two business days.</p>"
+            "content": "<p><strong>Времето за доставка е различно за всeки модел и може да се види при кликване върху желания модел. Ако не е изрично посочено, можете да очаквате време за доставка около 20 дни.<br/><br/>Products marked with \"</strong><em><strong>48H</strong></em><strong>\" are eligible for dispatch within a maximum of two business days.</strong></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
             "title": "Колко добро е нашето качество?",
-            "content": "<p>Нашето качество е несравнимо, съчетавайки първокласни материали, прецизна изработка и стриктни проверки на качеството, за да предоставим обувки, които са едновременно стилни и издръжливи.</p>"
+            "content": "<p><strong>Нашето качество е несравнимо, съчетавайки първокласни материали, прецизна изработка и стриктни проверки на качеството, за да предоставим обувки, които са едновременно стилни и издръжливи.</strong></p>"
           }
         }
       },
